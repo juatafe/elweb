@@ -1,17 +1,29 @@
-# Welcome to MkDocs
+# Benvingut al web del Professor
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+Aquest espai està dissenyat per facilitar l'accés als continguts dels diferents mòduls que imparteixo. Cadascun d'ells disposa d'una pàgina web pròpia amb materials, pràctiques, i recursos d'aprenentatge.
 
-## Commands
+## Mòduls
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+### [FM - Fonaments de Maquinari](FM/site/index.md)
+En aquest mòdul aprendrem sobre els fonaments del maquinari, incloent la configuració de sistemes microinformàtics, la instal·lació i recuperació de software, i la gestió d'equips en entorns de centres de dades (CPD). També es treballaran conceptes relacionats amb la seguretat i el medi ambient en entorns de tecnologia.
 
-## Project layout
+### [IMX - Instal·lació i manteniment de xarxes](IMX/site/index.md)
+Descripció breu del segon mòdul que impartixes, destacant els temes principals que els estudiants treballaran i aprenentatges esperats.
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+### [Nom del Mòdul 3](enllac-a-la-web-del-modul-3)
+Descripció breu del tercer mòdul amb enllaç a la web corresponent.
+
+### [Nom del Mòdul 4](enllac-a-la-web-del-modul-4)
+Descripció breu del quart mòdul amb un resum dels temes que es tractaran.
+
+---
+
+Cada mòdul té un espai dedicat amb la documentació corresponent, on trobareu els apunts, pràctiques i recursos per a desenvolupar els vostres coneixements en cada assignatura.
+
+## Contacte
+Si teniu dubtes o necessiteu qualsevol aclariment, no dubteu a posar-vos en contacte:
+- [Envia'm un correu](mailto:jb.talensfelis@edu.gva.es)
+
+---
+
+Aquest lloc està en constant actualització per oferir-vos els millors recursos possibles.
