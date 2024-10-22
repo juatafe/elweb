@@ -1,0 +1,85 @@
+site_name: El web del Professor
+site_author: JB Talens
+site_url: https://pgalera.github.io/elweb
+
+theme:
+  name: material
+  logo: img/logos/logoJust.png
+  favicon: img/logos/logo50.ico
+  language: ca
+  features:
+#    - navigation.tabs
+#    - navigation.tabs.sticky
+    - navigation.top # Botó de "Back to top"
+    - navigation.footer
+    - toc.follow
+    - content.code.copy
+  palette: 
+    # Palette toggle for light mode
+    - scheme: default
+      toggle:
+        icon: material/brightness-7 
+        name: Mode oscur
+    # Palette toggle for dark mode
+    - scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Mode clar
+
+extra:
+  social:
+    - icon: fontawesome/solid/paper-plane
+      link: mailto:jb.talensfelis@edu.gva.es
+      name: Contacte
+  analytics:
+    provider: google
+    property: G-GJ8MB56SLW
+  consent:
+    title: Consentiment de Cookies
+    description: Utilitzem cookies per reconèixer les vostres visites i preferències repetides, així com per mesurar l'eficàcia de la nostra documentació i si els usuaris troben el que estan cercant. Amb el vostre consentiment, ens esteu ajudant a millorar la nostra documentació.
+
+copyright: Apunts IMX - 2nFPB by JB.Talens es troba sota llicència CC BY-NC-SA 4.0 - <a href="#__consent">Canvia la configuració de les cookies</a>
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - attr_list
+  - md_in_html
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.highlight:
+      linenums: true
+      anchor_linenums: true
+      auto_title: true
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  
+
+nav:
+  - Index: index.md
+
+
+extra_css:
+  - css/extra_css_pdf.css
+
+plugins:
+  - search
+  - social
+  - with-pdf:
+      #author: WHO
+      copyright: Apunts IMX - 2nFPB by JB.Talens es troba sota llicència CC BY-NC-SA 4.0
+      back_cover: true
+      #cover_title: TITLE TEXT
+      cover_subtitle: 2n FPB - IES Jaume II el Just - Tavernes de la Valldigna
+      cover_logo: img/logojaumetema.png
+      toc_title: Continguts
+      #heading_shift: false
+      toc_level: 3
+      #ordered_chapter_level: 2
+      exclude_pages:
+          - 'SMX1-XAL-PRG'
