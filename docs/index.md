@@ -7,7 +7,7 @@ Aquest espai està dissenyat per facilitar l'accés als continguts dels diferent
 ### [FM - Fonaments de Maquinari](FM/site/index.md)
 En aquest mòdul aprendrem sobre els fonaments del maquinari, incloent la configuració de sistemes microinformàtics, la instal·lació i recuperació de software, i la gestió d'equips en entorns de centres de dades (CPD). També es treballaran conceptes relacionats amb la seguretat i el medi ambient en entorns de tecnologia.
 
-### [IMX - Instal·lació i manteniment de xarxes](IMX/site/index.md)
+### [IMX - Instal·lació i manteniment de xarxes](../IMX/docs/index.md)
 Descripció breu del segon mòdul que impartixes, destacant els temes principals que els estudiants treballaran i aprenentatges esperats.
 
 ### [Nom del Mòdul 3](enllac-a-la-web-del-modul-3)
