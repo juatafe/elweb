@@ -3,32 +3,28 @@ site_name: El web del Professor
 site_author: JB Talens
 site_url: https://juatafe.github.io/elweb
 
-# Configuració del tema
+# Tema
 theme:
   name: material
   logo: img/logos/logoJust.png  # Afegeix el logo principal
-  favicon: img/logos/logo50.ico  # Afegeix el favicon
-  language: ca  # Defineix l'idioma com Català
+  favicon: img/logos/logo50.ico  # Favicon
+  language: ca
   features:
-    - navigation.top  # Afegir el botó "Back to top"
-    - navigation.footer  # Afegir un peu de pàgina
-    - toc.follow  # Seguiment del ToC (Taula de continguts)
-    - content.code.copy  # Afegir botó per copiar codi
+    - navigation.top
+    - navigation.footer  # Afegeix peu de pàgina
+    - toc.follow
+    - content.code.copy
   palette:
     - scheme: default
-      primary: 'purple'  # Color primari
-      accent: 'orange'  # Color accent
       toggle:
         icon: material/brightness-7 
         name: Mode oscur
     - scheme: slate
-      primary: 'purple'
-      accent: 'orange'
       toggle:
         icon: material/brightness-4
         name: Mode clar
 
-# Configuració extra per a funcionalitats socials, consentiment i personalitzacions
+# Footer amb logos
 extra:
   social:
     - icon: fontawesome/solid/paper-plane
@@ -36,40 +32,31 @@ extra:
       name: Contacte
   consent:
     title: Consentiment de Cookies
-    description: Utilitzem cookies per reconèixer les vostres visites i preferències repetides, així com per mesurar l'eficàcia de la nostra documentació. Amb el vostre consentiment, ens esteu ajudant a millorar la nostra documentació.
+    description: Utilitzem cookies per reconèixer les vostres visites i preferències repetides.
   copyright: by JB.Talens es troba sota llicència CC BY-NC-SA 4.0 - <a href="#__consent">Canvia la configuració de les cookies</a>
+
+  # Afegeix els logos al peu de pàgina
+  extra_footer: |
+    <div class="footer-logos">
+      <img src="img/logos/gvaVertical.png" alt="Logo GVA" class="footer-logo">
+      <img src="img/logos/GvaNext.png" alt="Logo NextGen" class="footer-logo">
+      <img src="img/logos/miniPla.png" alt="Logo Pla Recuperació" class="footer-logo">
+      <img src="img/logos/logoJust.png" alt="Logo Institut" class="footer-logo">
+    </div>
 
 # Extensions de Markdown
 markdown_extensions:
-  - admonition  # Afegir blocs d'admonicions per advertències
-  - pymdownx.details  # Afegir seccions desplegables
-  - pymdownx.superfences  # Suport per a blocs de codi avançats
-  - attr_list  # Atributs per a elements HTML dins de Markdown
-  - md_in_html  # Permet inserir HTML dins de Markdown
-  - pymdownx.emoji:
-      emoji_index: !!python/name:material.extensions.emoji.twemoji
-      emoji_generator: !!python/name:material.extensions.emoji.to_svg
-  - pymdownx.highlight:
-      linenums: true  # Mostrar números de línia
-      anchor_linenums: true  # Permet ancorar els números de línia
-      auto_title: true  # Afegir títols automàtics als blocs de codi
-  - pymdownx.superfences:
-      custom_fences:
-        - name: mermaid
-          class: mermaid
-          format: !!python/name:pymdownx.superfences.fence_code_format
-
-# Navegació
-nav:
-  - Index: index.md
-  - IMX Docs: IMX/docs/index.md  # Afegeix la navegació per a la subcarpeta IMX/docs
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - attr_list
+  - md_in_html
 
 # Estils personalitzats addicionals
 extra_css:
-  - css/extra_css_pdf.css  # Arxiu CSS personalitzat (crea aquest fitxer per personalitzar més l'estil)
-  - css/custom.css  # Afegir un fitxer custom.css per personalitzar les posicions dels logos i altres estils visuals
+  - css/custom.css  # Afegeix aquest fitxer CSS per personalitzar la posició dels logos
 
 # Plugins
 plugins:
-  - search  # Afegir funció de cerca dins del lloc
-  - social  # Afegir funcionalitats socials com icones i enllaços
+  - search
+  - social
