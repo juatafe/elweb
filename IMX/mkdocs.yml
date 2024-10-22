@@ -1,11 +1,11 @@
 site_name: Instal·lació i manteniment de xarxes
 site_author: JB Talens
-site_url: https://pgalera.github.io/elweb
+site_url: https://juatafe.github.io/elweb
 
 theme:
   name: material
-  logo: img/logojaume.png
-  favicon: img/logojaume.png
+  logo: img/logos/logoJust.png
+  favicon: img/logos/logo50.ico
   language: ca
   features:
 #    - navigation.tabs
@@ -69,17 +69,28 @@ extra_css:
 
 plugins:
   - search
-  - social
+  - social:
+      -cards:
+        image: img/portada-aula.png  # Imatge de fons per a les social cards
+        background: '#123456'  # Color de fons, opcional
+        border_radius: '8px'  # Radius per a les cantonades, opcional
+        font_size: '24px'  # Mida del text
+        font_color: 'white'  # Color del text
   - with-pdf:
-      #author: WHO
-      copyright: Apunts IMX - 2nFPB by JB.Talens es troba sota llicència CC BY-NC-SA 4.0
-      back_cover: true
-      #cover_title: TITLE TEXT
-      cover_subtitle: 2n FPB - IES Jaume II el Just - Tavernes de la Valldigna
-      cover_logo: img/logojaumetema.png
-      toc_title: Continguts
-      #heading_shift: false
-      toc_level: 3
-      #ordered_chapter_level: 2
+      author: "JB Talens"
+      cover_title: "Programació d'Aula IMX"
+      cover_subtitle: "FPB Informàtica i Comunicacions"
+      cover_logo: img/portada_completa.png  # La imatge completa que fa de portada
+      copyright: "Apunts IMX - 2nFPB by JB.Talens es troba sota llicència CC BY-NC-SA 4.0"
+      back_cover: true  # Afegeix una contraportada si cal
+      toc_title: "Continguts"  # Títol de la taula de continguts
+      toc_level: 3  # Profunditat de la taula de continguts
+      ordered_chapter_level: 2  # Numeració de capítols
+      geometry: "left=2cm,right=2cm,top=3cm,bottom=3cm"  # Similar a LaTeX
+      header-left: img/logoJust.png  # Logo a l'encapçalament esquerre
+      header-right: img/GvaNext.png  # Logo a l'encapçalament dret
+      footer-left: img/FonsVal.png  # Logo al peu esquerre
+      footer-center:   # Número de pàgina centrat
+      footer-right: img/miniPla.png  # Logo al peu dret
       exclude_pages:
           - 'SMX1-XAL-PRG'

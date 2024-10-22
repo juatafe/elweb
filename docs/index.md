@@ -1,6 +1,6 @@
 # Benvingut al web del Professor
 
-Aquest espai està dissenyat per facilitar l'accés als continguts dels diferents mòduls que imparteixo. Cadascun d'ells disposa d'una pàgina web pròpia amb materials, pràctiques, i recursos d'aprenentatge.
+Aquest espai està dissenyat per facilitar l'accés als continguts dels diferents mòduls que he impartit o estic impartint. Cadascun d'ells disposa d'una pàgina web pròpia amb materials, pràctiques, i recursos d'aprenentatge.
 
 ## Mòduls
 
