@@ -31,9 +31,9 @@ extra:
     - icon: fontawesome/solid/paper-plane
       link: mailto:jb.talensfelis@edu.gva.es
       name: Contacte
-  analytics:
-    provider: google
-    property: G-GJ8MB56SLW
+  # analytics:
+  #   provider: google
+  #   property: G-GJ8MB56SLW
   consent:
     title: Consentiment de Cookies
     description: Utilitzem cookies per reconèixer les vostres visites i preferències repetides, així com per mesurar l'eficàcia de la nostra documentació i si els usuaris troben el que estan cercant. Amb el vostre consentiment, ens esteu ajudant a millorar la nostra documentació.
