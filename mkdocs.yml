@@ -15,11 +15,16 @@ theme:
     - toc.follow
     - content.code.copy
   palette:
+    # Tornant als colors originals (morat i taronja)
     - scheme: default
+      primary: 'purple'
+      accent: 'orange'
       toggle:
         icon: material/brightness-7 
         name: Mode oscur
     - scheme: slate
+      primary: 'purple'
+      accent: 'orange'
       toggle:
         icon: material/brightness-4
         name: Mode clar
