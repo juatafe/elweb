@@ -36,7 +36,7 @@ extra:
     title: Consentiment de Cookies
     description: Utilitzem cookies per reconèixer les vostres visites i preferències repetides, així com per mesurar l'eficàcia de la nostra documentació i si els usuaris troben el que estan cercant. Amb el vostre consentiment, ens esteu ajudant a millorar la nostra documentació.
 
-copyright: Apunts IMX - 2nFPB by JB.Talens es troba sota llicència CC BY-NC-SA 4.0 - <a href="#__consent">Canvia la configuració de les cookies</a>
+copyright: by JB.Talens es troba sota llicència CC BY-NC-SA 4.0 - <a href="#__consent">Canvia la configuració de les cookies</a>
 
 markdown_extensions:
   - admonition
@@ -68,16 +68,4 @@ extra_css:
 plugins:
   - search
   - social
-  - with-pdf:
-      #author: WHO
-      copyright: Apunts IMX - 2nFPB by JB.Talens es troba sota llicència CC BY-NC-SA 4.0
-      back_cover: true
-      #cover_title: TITLE TEXT
-      cover_subtitle: 2n FPB - IES Jaume II el Just - Tavernes de la Valldigna
-      cover_logo: img/logojaumetema.png
-      toc_title: Continguts
-      #heading_shift: false
-      toc_level: 3
-      #ordered_chapter_level: 2
-      exclude_pages:
-          - 'SMX1-XAL-PRG'
+ 
