@@ -14,7 +14,6 @@ lang: ca
 
 header-includes:
   - \usepackage{fontspec}  # Usa Fontspec para gestionar las fuentes con XeLaTeX
-  - \usepackage[catalan]{babel}  # Usa babel para catalán
 
 ---
 

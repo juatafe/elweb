@@ -1,35 +1,35 @@
 ---
 title: "[Programació d'Aula IMX  \\newline FPB Informàtica d'Oficina]"
-titlepage: true
 subtitle: FPB Informàtica i Comunicacions \newline \today
-lang: ca
+author: "JB Talens"
+titlepage: true
+titlepage-rule-height: 0
+titlepage-text-color: "F08A2A"
+titlepage-background: "./docs/img/portada-aula.png"
+geometry: "left=2cm,right=2cm,top=3cm,bottom=3cm"
 toc: true
 toc-own-page: true
 toc-title: Índex
-listings: true
-titlepage-rule-height: 0
-titlepage-text-color: "F08A2A"
-titlepage-background: "/home/teacher/Documents/ProgramacionsGit/elweb/IMX/docs/img/portada-aula.png"
 numbersections: true
-page-background: "/home/teacher/Documents/ProgramacionsGit/elweb/IMX/docs/img/fondo.png"
-geometry: "left=2cm,right=2cm,top=3cm,bottom=3cm"
-# header-left: \includegraphics[scale=0.5]{./docs/img/logos/logoJust.png}  \textcolor{morat}{| Programació d'Aula IMX}
-# header-right: \includegraphics[scale=0.5]{./docs/img/logos/GvaNext.png}
-# footer-left:   \includegraphics[scale=0.3]{./docs/img/logos/FonsVal.png}
-# footer-center: \thepage/\pageref{LastPage}
-# footer-right: \includegraphics[scale=0.3]{./docs/img/logos/miniPla.png}
+lang: ca
+listings: true
+
+
+
+page-background: "./docs/img/fondo.png"
+header-left: \includegraphics[scale=0.5]{./docs/img/logos/logoJust.png}  \textcolor{morat}{| Programació d'Aula IMX}
+header-right: \includegraphics[scale=0.5]{./docs/img/logos/GvaNext.png}
+footer-left:   \includegraphics[scale=0.3]{./docs/img/logos/FonsVal.png}
+footer-center: \thepage/\pageref{LastPage}
+footer-right: \includegraphics[scale=0.3]{./docs/img/logos/miniPla.png}
 #bibliography: "./bibliografia.bib"
 
 #csl: "apa.csl"
 #biblatexoptions: [language=spanish,backend=biber] # Afegeix l'idioma català i el backend
 
 header-includes:
-  - \usepackage{polyglossia}
-  - \setmainlanguage{catalan}
-  - \setotherlanguage{english}
   - \usepackage{fontspec}
   - \usepackage{titling}
-#   - \setlength{\droptitle}{3cm}
   - \usepackage{lastpage}
   - \usepackage{longtable}
   - \usepackage{graphicx}
