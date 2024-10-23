@@ -17,6 +17,9 @@ body {
   text-decoration: none;
   padding: 0 10px;
 }
+.small-icon {
+  font-size: 4px; /* Ajusta este tamaño según lo que necesites */
+}
 
 /* Encabezado con logo */
 .header {
