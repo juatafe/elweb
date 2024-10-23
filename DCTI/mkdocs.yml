@@ -14,14 +14,14 @@ theme:
     - content.code.copy
   palette: 
     - scheme: default
-      primary: "#CC0033"  # 
-      accent: "#f0f0f0"   # Gris claro UPV
+      primary: '#CC0033'  # 
+      accent: '#f0f0f0'   # Gris claro UPV
       toggle:
         icon: material/brightness-7 
         name: Mode clar
     - scheme: slate
-      primary: "#CC0033"  # 
-      accent: "#f0f0f0"   # Gris claro UPV
+      primary: '#CC0033'  # 
+      accent: '#f0f0f0'   # Gris claro UPV
       toggle:
         icon: material/brightness-1
         name: Mode oscur
