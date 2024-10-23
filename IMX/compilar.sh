@@ -1,8 +1,9 @@
 #!/bin/bash
+mkdocs build
 
 # Combinar fitxers Markdown en uno sol
 #cat p-aulaFPB.md Situacions.md criteris.md organitzacio.md distribucio.md recursosMat.md instruments.md referencies.md> combined.md
-mkdocs build
+
 
 # Compilar el fitxer Markdown a LaTeX utilitzant Pandoc
 #pandoc combined.md -o Prog_aulaFPB.tex --template ./eisvogel.tex --pdf-engine=xelatex --bibliography=./bibliografia.bib --biblatex

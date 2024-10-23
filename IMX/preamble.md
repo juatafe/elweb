@@ -22,10 +22,10 @@ header-right: \includegraphics[scale=0.5]{./docs/img/logos/GvaNext.png}
 footer-left:   \includegraphics[scale=0.3]{./docs/img/logos/FonsVal.png}
 footer-center: \thepage/\pageref{LastPage}
 footer-right: \includegraphics[scale=0.3]{./docs/img/logos/miniPla.png}
-#bibliography: "./bibliografia.bib"
+bibliography: "./bibliografia.bib"
 
-#csl: "apa.csl"
-#biblatexoptions: [language=spanish,backend=biber] # Afegeix l'idioma català i el backend
+csl: "apa.csl"
+biblatexoptions: [language=spanish,backend=biber] # Afegeix l'idioma català i el backend
 
 header-includes:
   - \usepackage{fontspec}
