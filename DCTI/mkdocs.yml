@@ -4,8 +4,8 @@ site_url: https://juatafe.github.io/elweb/DCTI
 
 theme:
   name: material
-  logo: "img/logos/LOGO-CAMPUS-GANDIAgrisV.png"
-  favicon: "img/favicon.ico"
+  logo: "docs/img/logos/LOGO-CAMPUS-GANDIAgrisV.png"
+  favicon: "docs/img/favicon.ico"
   language: ca
   features:
     - navigation.top # Botó de "Back to top"
