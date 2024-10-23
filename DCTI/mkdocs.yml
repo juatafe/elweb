@@ -1,11 +1,11 @@
-site_name: Disseny curricular de la Tecnologia i la Informàtica
+site_name: Diseño curricular de la Tecnología y la Informática
 site_author: JB Talens
 site_url: https://juatafe.github.io/elweb/DCTI
 
 theme:
   name: material
-  logo: "img/logos/logoJust.png"
-  favicon: "img/logos/logo50.ico"
+  logo: "img/logos/LOGO-CAMPUS-GANDIAgrisV.png"
+  favicon: "img/favicon.ico"
   language: ca
   features:
     - navigation.top # Botó de "Back to top"
@@ -13,16 +13,18 @@ theme:
     - toc.follow
     - content.code.copy
   palette: 
-    # Palette toggle for light mode
     - scheme: default
+      primary: "#003399"  # Azul UPV
+      accent: "#f0f0f0"   # Gris claro UPV
       toggle:
         icon: material/brightness-7 
-        name: Mode oscur
-    # Palette toggle for dark mode
+        name: Mode clar
     - scheme: slate
+      primary: "#003399"  # Azul UPV
+      accent: "#f0f0f0"   # Gris claro UPV
       toggle:
         icon: material/brightness-4
-        name: Mode clar
+        name: Mode oscur
 
 extra:
   social:
@@ -31,9 +33,8 @@ extra:
       name: Contacte
   consent:
     title: Consentiment de Cookies
-    description: Utilitzem cookies per reconèixer les vostres visites i preferències repetides, així com per mesurar l'eficàcia de la nostra documentació i si els usuaris troben el que estan cercant. Amb el vostre consentiment, ens esteu ajudant a millorar la nostra documentació.
-
-copyright: Apunts DCTI - 2nFPB by JB.Talens es troba sota llicència CC BY-NC-SA 4.0 - <a href="#__consent">Canvia la configuració de les cookies</a>
+    description: Utilitzem cookies per reconèixer les vostres visites i preferències repetides.
+  copyright: Apunts DCTI - 2nFPB by JB.Talens es troba sota llicència CC BY-NC-SA 4.0 - <a href="#__consent">Canvia la configuració de les cookies</a>
 
 markdown_extensions:
   - admonition
@@ -56,23 +57,11 @@ markdown_extensions:
 
 nav:
   - Index: index.md
+  
 
 extra_css:
-  - css/extra_css_pdf.css
+  - css/upv_styles.css
 
 plugins:
   - search
-  - social  # Corregido el error con la configuración social
-  #- with-pdf:
-      # author: "JB Talens"
-      # cover_title: "Programació d'Aula IMX"
-      # cover_subtitle: "FPB Informàtica i Comunicacions"
-      # cover_logo: img/portada-aula.png  # Imatge completa que fa de portada
-      # copyright: "Apunts IMX - 2nFPB by JB.Talens es troba sota llicència CC BY-NC-SA 4.0"
-      # back_cover: true  # Afegeix una contraportada si cal
-      # toc_title: "Continguts"  # Títol de la taula de continguts
-      # toc_level: 3  # Profunditat de la taula de continguts
-      # ordered_chapter_level: 2  # Numeració de capítols
-      # geometry: "left=2cm,right=2cm,top=3cm,bottom=3cm"  # Ajust de marges similar a LaTeX
-      # exclude_pages:  # Exclou pàgines específiques si cal
-      #   - 'SMX1-XAL-PRG'
+  - social
