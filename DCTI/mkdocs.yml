@@ -4,8 +4,8 @@ site_url: https://juatafe.github.io/elweb/DCTI
 
 theme:
   name: material
-  # logo: "img/logos/logoJust.png"
-  # favicon: "img/logos/logo50.ico"
+  logo: "img/logos/logoJust.png"
+  favicon: "img/logos/logo50.ico"
   language: ca
   features:
     - navigation.top # Botó de "Back to top"
