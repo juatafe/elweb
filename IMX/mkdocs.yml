@@ -4,12 +4,10 @@ site_url: https://juatafe.github.io/elweb
 
 theme:
   name: material
-  logo: img/logos/logoJust.png
-  favicon: img/logos/logo50.ico
+  logo: /home/teacher/Documents/ProgramacionsGit/elweb/IMX/docs/img/logos/logoJust.png
+  favicon: /home/teacher/Documents/ProgramacionsGit/elweb/IMX/docs/img/logos/logo50.ico
   language: ca
   features:
-#    - navigation.tabs
-#    - navigation.tabs.sticky
     - navigation.top # Botó de "Back to top"
     - navigation.footer
     - toc.follow
@@ -31,9 +29,6 @@ extra:
     - icon: fontawesome/solid/paper-plane
       link: mailto:jb.talensfelis@edu.gva.es
       name: Contacte
-  # analytics:
-  #   provider: google
-  #   property: G-GJ8MB56SLW
   consent:
     title: Consentiment de Cookies
     description: Utilitzem cookies per reconèixer les vostres visites i preferències repetides, així com per mesurar l'eficàcia de la nostra documentació i si els usuaris troben el que estan cercant. Amb el vostre consentiment, ens esteu ajudant a millorar la nostra documentació.
@@ -58,39 +53,26 @@ markdown_extensions:
         - name: mermaid
           class: mermaid
           format: !!python/name:pymdownx.superfences.fence_code_format
-  
 
 nav:
   - Index: index.md
-
 
 extra_css:
   - css/extra_css_pdf.css
 
 plugins:
   - search
-  - social:
-      -cards:
-        image: img/portada-aula.png  # Imatge de fons per a les social cards
-        background: '#123456'  # Color de fons, opcional
-        border_radius: '8px'  # Radius per a les cantonades, opcional
-        font_size: '24px'  # Mida del text
-        font_color: 'white'  # Color del text
-  - with-pdf:
-      author: "JB Talens"
-      cover_title: "Programació d'Aula IMX"
-      cover_subtitle: "FPB Informàtica i Comunicacions"
-      cover_logo: img/portada_completa.png  # La imatge completa que fa de portada
-      copyright: "Apunts IMX - 2nFPB by JB.Talens es troba sota llicència CC BY-NC-SA 4.0"
-      back_cover: true  # Afegeix una contraportada si cal
-      toc_title: "Continguts"  # Títol de la taula de continguts
-      toc_level: 3  # Profunditat de la taula de continguts
-      ordered_chapter_level: 2  # Numeració de capítols
-      geometry: "left=2cm,right=2cm,top=3cm,bottom=3cm"  # Similar a LaTeX
-      header-left: img/logoJust.png  # Logo a l'encapçalament esquerre
-      header-right: img/GvaNext.png  # Logo a l'encapçalament dret
-      footer-left: img/FonsVal.png  # Logo al peu esquerre
-      footer-center:   # Número de pàgina centrat
-      footer-right: img/miniPla.png  # Logo al peu dret
-      exclude_pages:
-          - 'SMX1-XAL-PRG'
+  - social  # Corregido el error con la configuración social
+  #- with-pdf:
+      # author: "JB Talens"
+      # cover_title: "Programació d'Aula IMX"
+      # cover_subtitle: "FPB Informàtica i Comunicacions"
+      # cover_logo: img/portada-aula.png  # Imatge completa que fa de portada
+      # copyright: "Apunts IMX - 2nFPB by JB.Talens es troba sota llicència CC BY-NC-SA 4.0"
+      # back_cover: true  # Afegeix una contraportada si cal
+      # toc_title: "Continguts"  # Títol de la taula de continguts
+      # toc_level: 3  # Profunditat de la taula de continguts
+      # ordered_chapter_level: 2  # Numeració de capítols
+      # geometry: "left=2cm,right=2cm,top=3cm,bottom=3cm"  # Ajust de marges similar a LaTeX
+      # exclude_pages:  # Exclou pàgines específiques si cal
+      #   - 'SMX1-XAL-PRG'
