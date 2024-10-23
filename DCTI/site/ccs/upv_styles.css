@@ -17,10 +17,13 @@ body {
   text-decoration: none;
   padding: 0 10px;
 }
+.small-icon {
+  font-size: 4px; /* Ajusta este tamaño según lo que necesites */
+}
 
 /* Encabezado con logo */
 .header {
-  background-color: #003399; /* Azul UPV */
+  background-color: #CC0033; /* Azul UPV */
   color: #ffffff;
   padding: 10px 20px;
   display: flex;
@@ -44,7 +47,7 @@ body {
 
 /* Pie de página */
 footer {
-  background-color: #003399;
+  background-color: #CC0033;
   color: #ffffff;
   padding: 10px;
   text-align: center;
@@ -53,4 +56,8 @@ footer {
 footer a {
   color: #f0f0f0;
   text-decoration: underline;
+}
+
+.fa-user-graduate {
+  font-size: 4px; /* Ajusta este valor según el tamaño que desees */
 }
