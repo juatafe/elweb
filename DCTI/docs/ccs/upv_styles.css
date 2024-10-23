@@ -54,3 +54,7 @@ footer a {
   color: #f0f0f0;
   text-decoration: underline;
 }
+
+.fa-user-graduate {
+  font-size: 4px; /* Ajusta este valor según el tamaño que desees */
+}

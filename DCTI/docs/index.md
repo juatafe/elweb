@@ -14,6 +14,6 @@
     docs/
         index.md  # The documentation homepage.
         ...       # Other markdown pages, images and other files.
-        
+
 ## :fontawesome-solid-user-graduate: Professorat 
 - [Juan Bautista Talens Felis](https://juatafe.github.io)

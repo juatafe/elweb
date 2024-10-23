@@ -3,7 +3,7 @@ site_author: JB Talens
 site_url: https://juatafe.github.io/elweb/DCTI
 
 theme:
-  name: material
+  name: readthedocs
   logo: "img/logos/marca_UPV_secundaria_blanco300.png"
   favicon: "img/favicon.ico"
   language: es
@@ -59,7 +59,7 @@ nav:
   - Index: index.md
 
 extra_css:
-  - css/upv_styles.css
+  - https://juatafe.github.io/elweb/docs/ccs/extra_css_pdf.css
 
 plugins:
   - search
