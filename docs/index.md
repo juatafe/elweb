@@ -10,7 +10,7 @@ En aquest mòdul aprendrem sobre els fonaments del maquinari, incloent la config
 ### [IMX - Instal·lació i manteniment de xarxes](../IMX/site/index.html)
 Descripció breu del segon mòdul que impartixes, destacant els temes principals que els estudiants treballaran i aprenentatges esperats.
 
-### [Nom del Mòdul 3](enllac-a-la-web-del-modul-3)
+### [DCTI- Disseny curricular de la Tecnologia i la Informàtica](../DCTI/site/index.html)
 Descripció breu del tercer mòdul amb enllaç a la web corresponent.
 
 ### [Nom del Mòdul 4](enllac-a-la-web-del-modul-4)
