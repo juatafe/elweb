@@ -2,3 +2,55 @@ body {
     font-family: 'Roboto', sans-serif; /* Cambia esta línea por la fuente oficial */
   }
   
+/* Barra superior */
+.top-bar {
+  background-color: #000000; /* Fondo negro */
+  color: #ffffff;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
+}
+
+.top-bar a {
+  color: #ffffff;
+  text-decoration: none;
+  padding: 0 10px;
+}
+
+/* Encabezado con logo */
+.header {
+  background-color: #003399; /* Azul UPV */
+  color: #ffffff;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+}
+
+.header img {
+  height: 60px;
+  margin-right: 20px;
+}
+
+/* Barra de navegación */
+.nav-bar {
+  background-color: #f0f0f0;
+  color: #333333;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+}
+
+/* Pie de página */
+footer {
+  background-color: #003399;
+  color: #ffffff;
+  padding: 10px;
+  text-align: center;
+}
+
+footer a {
+  color: #f0f0f0;
+  text-decoration: underline;
+}

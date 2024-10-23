@@ -6,24 +6,24 @@ theme:
   name: material
   logo: "img/logos/marca_UPV_secundaria_blanco300.png"
   favicon: "img/favicon.ico"
-  language: ca
+  language: es
   features:
-    - navigation.top # Botó de "Back to top"
+    - navigation.top
     - navigation.footer
     - toc.follow
     - content.code.copy
   palette: 
     - scheme: default
-      primary: "#003399"  # Azul UPV
+      primary: "#CC0033"  # 
       accent: "#f0f0f0"   # Gris claro UPV
       toggle:
         icon: material/brightness-7 
         name: Mode clar
     - scheme: slate
-      primary: "#003399"  # Azul UPV
+      primary: "#CC0033"  # 
       accent: "#f0f0f0"   # Gris claro UPV
       toggle:
-        icon: material/brightness-4
+        icon: material/brightness-1
         name: Mode oscur
 
 extra:
@@ -32,9 +32,9 @@ extra:
       link: mailto:jb.talensfelis@edu.gva.es
       name: Contacte
   consent:
-    title: Consentiment de Cookies
-    description: Utilitzem cookies per reconèixer les vostres visites i preferències repetides.
-  copyright: Apunts DCTI - 2nFPB by JB.Talens es troba sota llicència CC BY-NC-SA 4.0 - <a href="#__consent">Canvia la configuració de les cookies</a>
+    title: Consentimiento de Cookies
+    description: Utilizamos cookies para mejorar su experiencia de navegación.
+  copyright: Apunts DCTI by JB.Talens está bajo licencia CC BY-NC-SA 4.0 - <a href="#__consent">Cambiar la configuración de las cookies</a>
 
 markdown_extensions:
   - admonition
@@ -57,11 +57,9 @@ markdown_extensions:
 
 nav:
   - Index: index.md
-  
 
 extra_css:
   - css/upv_styles.css
 
 plugins:
   - search
-  - social
