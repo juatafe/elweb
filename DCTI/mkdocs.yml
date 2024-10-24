@@ -3,7 +3,8 @@ site_author: JB Talens
 site_url: https://juatafe.github.io/elweb/DCTI
 
 theme:
-  name: readthedocs
+  name: material
+  include_sidebar: true
   logo: "img/logos/marca_UPV_secundaria_blanco300.png"
   favicon: "img/favicon.ico"
   language: es
@@ -14,14 +15,14 @@ theme:
     - content.code.copy
   palette: 
     - scheme: default
-      primary: '#CC0033'  # 
-      accent: '#f0f0f0'   # Gris claro UPV
+      primary: 'red'  # 
+      accent: 'grey'   # Gris claro UPV
       toggle:
         icon: material/brightness-7 
         name: Mode clar
     - scheme: slate
-      primary: '#CC0033'  # 
-      accent: '#f0f0f0'   # Gris claro UPV
+      primary: 'red'  # 
+      accent: 'grey'   # Gris claro UPV
       toggle:
         icon: material/brightness-1
         name: Mode oscur
@@ -56,10 +57,10 @@ markdown_extensions:
           format: !!python/name:pymdownx.superfences.fence_code_format
 
 nav:
-  - Index: index.md
+  - Introducción: index.md
 
 extra_css:
-  - https://juatafe.github.io/elweb/docs/ccs/extra_css_pdf.css
+  - stylesheets/extra.css
 
 plugins:
   - search
