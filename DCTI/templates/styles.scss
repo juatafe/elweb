@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+// Variables
+$color-rojo-upv: #CC0033;
+$color-fondo-negro: #000000;
+$color-blanco: #ffffff;
+$color-gris-claro: #f0f0f0;
+$color-texto-gris: #333333;
+
+body {
+  font-family: 'Roboto', sans-serif; /* Usa la fuente oficial */
+}
+
+/* Barra superior */
+.top-bar {
+  background-color: $color-fondo-negro; /* Fondo negro */
+  color: $color-blanco;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
+
+  a {
+    color: $color-blanco;
+    text-decoration: none;
+    padding: 0 10px;
+  }
+}
+
+.small-icon {
+  font-size: 120px !important; /* Ajusta este tamaño según lo que necesites */
+}
+
+/* Encabezado con logo alineado a la derecha */
+.header {
+  background-color: $color-rojo-upv; /* Rojo UPV */
+  color: $color-blanco;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: flex-end; /* Coloca el logo a la derecha */
+  align-items: center;
+
+  img {
+    height: 60px;
+    margin-left: 20px; /* Espacio a la izquierda del logo */
+  }
+}
+
+/* Barra de navegación */
+.nav-bar {
+  background-color: $color-gris-claro;
+  color: $color-texto-gris;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+}
+
+/* Pie de página */
+footer {
+  background-color: $color-rojo-upv; /* Rojo UPV */
+  color: $color-blanco;
+  padding: 10px;
+  text-align: center;
+
+  a {
+    color: $color-gris-claro;
+    text-decoration: underline;
+  }
+}
+
+.fa-user-graduate {
+  font-size: 12px; /* Ajusta el tamaño del icono */
+}
+
+@media print {
+  .admonition .admonition-title::before {
+    display: inline-block !important;
+    margin-left: -20px !important;
+    margin-right: 10px !important; /* Desplaza el ícono a la derecha */
+    margin-top: 4px !important; /* Desplaza el ícono hacia abajo */
+  }
+}
